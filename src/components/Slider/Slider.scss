@@ -19,6 +19,13 @@
             height: 2em;
             padding-top: 10px;
             padding-bottom: 10px;
+            left: 50%;
+            position: relative;
+            margin-left: -150px;
+            &:hover {
+                background: #00000014;
+                cursor: pointer;
+            }
         }
 
     }
