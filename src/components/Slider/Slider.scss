@@ -1,0 +1,30 @@
+.slider {
+    overflow: hidden;
+    width: 100%;
+
+    .sliderWrapper {
+        z-index: 2;
+        position: relative;
+        background: white;
+        width: 100%;
+
+        .sliderHead {
+            text-align: center;
+            z-index: 3;
+            font-size: 1.2em;
+            height: 2em;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+    }
+
+    .sliderBody {
+        top: 0%;
+        text-align: left;
+        position: relative;
+        margin-top: 20px;
+        z-index: 1;
+        transition: 1s all ease;
+    }
+}

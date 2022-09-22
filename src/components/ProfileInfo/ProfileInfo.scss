@@ -1,0 +1,28 @@
+.profileInfoWrapper {
+    text-align: center;
+    
+    .profileEmail {
+        .emailTitle {
+            font-weight: 600;
+        }
+        .emailValue {
+            margin-left: 20px;
+        }
+    }
+    .profileLinkedIn {
+        .linkedInTitle {
+            font-weight: 600;
+        }
+        .linkedInValue {
+            margin-left: 20px;
+        }
+    }
+    .profileGithub {
+        .githubTitle {
+            font-weight: 600;
+        }
+        .githubValue {
+            margin-left: 20px;
+        }
+    }
+}
