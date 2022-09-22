@@ -1,0 +1,13 @@
+.column {
+    text-align: left;
+    float: left;
+    width: 30%;
+    margin-left: 90px;
+}
+  
+/* Clear floats after the columns */
+.softSkills1:after {
+content: "";
+display: table;
+clear: both;
+}

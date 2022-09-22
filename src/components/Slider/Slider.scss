@@ -9,6 +9,7 @@
         width: 100%;
 
         .sliderHead {
+            font-family: 'Courier New', Courier, monospace;
             text-align: center;
             z-index: 3;
             font-size: 1.2em;
@@ -21,7 +22,7 @@
 
     .sliderBody {
         top: 0%;
-        text-align: left;
+        text-align: center;
         position: relative;
         margin-top: 20px;
         z-index: 1;

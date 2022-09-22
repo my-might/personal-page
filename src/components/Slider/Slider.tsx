@@ -1,12 +1,14 @@
 import React, { useEffect, useRef, useState } from "react";
+import { ColorLine } from "../ColorLine/ColorLine";
 import './Slider.scss'
 
 type SliderProps = {
     sliderHead: string
     children: JSX.Element | JSX.Element[]
+    wrapHeight:number
 }
 
-export const Slider: React.FC<SliderProps> = ({ children, sliderHead }) => {
+export const Slider: React.FC<SliderProps> = ({ children, sliderHead, wrapHeight }) => {
     const sliderBodyRef = useRef<HTMLDivElement>(null);
     const sliderBodyHeight = useRef<number | undefined>();
     const [isOpen, setIsOpened] = useState<boolean>(true);
@@ -21,7 +23,7 @@ export const Slider: React.FC<SliderProps> = ({ children, sliderHead }) => {
 
     const getSliderBodyTopStyle = () => {
         if (sliderBodyHeight.current) {
-            return isOpen ? 0 : -(sliderBodyHeight.current + 20);
+            return isOpen ? 0 : -(wrapHeight);
         }
         return 0;
     }
