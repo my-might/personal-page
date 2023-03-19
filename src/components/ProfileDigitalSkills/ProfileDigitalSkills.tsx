@@ -11,29 +11,32 @@ type ProfileDigitalSkillsProps = {
 export const ProfileDigitalSkills : React.FC<ProfileDigitalSkillsProps> = () => {
 
     return <div className="profileDigitalSkillsWrapper">
-        <Slider sliderHead="Digital skills" wrapHeight={230}>
+        <Slider sliderHead="Digital skills" wrapHeight={260}>
                 <div className="digitalSkills1">
                     <span className="digitalSkills1Title">
-                        Programming languages<br />
+                        Commercial experience<br />
                     </span>
                     <span className="digitalSkills1Value">
-                        C# (2.5 years), Python (1.5 year), Golang(0.5 year), Solidity(0.5 year), Java (0.5 years)
+                    Golang (1 year), PostgreSQL, RabbitMQ, Unit & Integrated testing, Docker compose,
+                    Kubernetes (k9s), Terraform, Gitlab, Solidity, Blockchain technologies
                     </span>
                 </div>
+
                 <div className="digitalSkills2">
+                    <p></p>
                     <span className="digitalSkills2Title">
-                    <br />Database management systems<br />
+                        Other programming languages<br />
                     </span>
                     <span className="digitalSkills2Value">
-                        SQLite, PostgreSQL
+                        C# (2 years), Python (1 year), Java (1 years)
                     </span>
                 </div>
                 <div className="digitalSkills3">
                     <span className="digitalSkills3Title">
-                    <br />Operating systems<br />
+                    <br />Database management systems<br />
                     </span>
                     <span className="digitalSkills3Value">
-                        Microsoft Windows, Linux Ubuntu, MacOS
+                        SQLite, PostgreSQL
                     </span>
                 </div>
                 <div className="digitalSkills4">
@@ -41,12 +44,12 @@ export const ProfileDigitalSkills : React.FC<ProfileDigitalSkillsProps> = () => 
                     <br />Other<br />
                     </span>
                     <span className="digitalSkills4Value">
-                    Git, OOP, design patterns, data structures, algorithms, blockchain
+                    Strong applied mathematics skills, OOP, design patterns, documentation, 
+                    data structures, algorithms, microservice architecture, rest api
                     </span>
                 </div>
                 <ColorLine color="black"/>
                 <ProfileSoftSkills />
         </Slider>
     </div>
-
 }

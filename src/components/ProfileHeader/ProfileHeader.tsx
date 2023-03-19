@@ -11,7 +11,7 @@ export const ProfileHeader : React.FC<ProfileHeaderProps> = ({name}) => {
         <div className="profileHeader">
             <h2>{name}</h2>
         </div>
-        <p>Kyiv, Ukraine</p>
+        <p>Lviv, Ukraine</p>
         <p></p>
     </div>
 

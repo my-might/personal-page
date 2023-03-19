@@ -9,6 +9,13 @@
         width: 100%;
 
         .sliderHead {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            z-index: 3;
+            font-size: 1.2em;
+            height: 2em;
+            padding-top: 10px;
+            padding-bottom: 10px;
             left: 50%;
             position: relative;
             margin-left: -150px;
@@ -17,13 +24,6 @@
                 background: rgb(224, 232, 234);
                 cursor: pointer;
             }
-            font-family: 'Courier New', Courier, monospace;
-            text-align: center;
-            z-index: 3;
-            font-size: 1.2em;
-            height: 2em;
-            padding-top: 10px;
-            padding-bottom: 10px;
         }
 
     }

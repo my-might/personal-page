@@ -24,7 +24,7 @@ export const ProfileSoftSkills : React.FC<ProfileSoftSkillsProps> = () => {
                     <ul>
                         <li>Problem solving</li>
                         <li>Empathy</li>
-                        <li>Concentration</li>
+                        <li>Very fast learner</li>
                     </ul>
                 </div>
             </div>
